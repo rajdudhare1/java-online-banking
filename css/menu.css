@@ -1,0 +1,90 @@
+#ddblueblockmenu {
+	border: 1px solid;
+	border-bottom-width: 0;
+	width: 180px;
+}
+
+#ddblueblockmenu ul{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	font: normal 90% 'Trebuchet MS', 'Lucida Grande', Arial, sans-serif;
+}
+
+#ddblueblockmenu li a{
+	display: block;
+	padding: 3px 0;
+	padding-left: 9px;
+	width: 164px; /*185px minus all left/right paddings and margins*/
+	text-decoration: none;
+	color: white;
+	background-color: #2175bc;
+	border-bottom: 1px solid #90bade;
+	border-left: 7px solid #1958b7;
+}
+
+
+
+#ddblueblockmenu li a:hover {
+	background-color:#990033;
+	border-left-color: #1c64d1;
+}
+
+#ddblueblockmenu div.menutitle{
+	color: white;
+	border-bottom: 1px solid black;
+	padding: 1px 0;
+	padding-left: 5px;
+	background-color: black;
+	font: bold 90% 'Trebuchet MS', 'Lucida Grande', Arial, sans-serif;
+}
+
+/*
+New CSS-----------------------------------------------------
+*/
+
+
+#button {
+width: 140px;
+border-right: 1px solid #000;
+padding: 0 0 1em 0;
+margin-bottom: 1em;
+font-family: 'Trebuchet MS', 'Lucida Grande', Arial, sans-serif;
+font-size: 90%;
+background-color: #90bade;
+color: #333;
+}
+
+#button ul {
+list-style: none;
+margin: 0;
+padding: 0;
+border: none;
+}
+
+#button li {
+border-bottom: 1px solid #90bade;
+margin: 0;
+}
+
+#button li a {
+display: block;
+padding: 5px 5px 5px 0.5em;
+border-left: 10px solid #1958b7;
+border-right: 10px solid #508fc4;
+background-color: #2175bc;
+color: #fff;
+text-decoration: none;
+width: 100%;
+}
+
+html>body #button li a {
+width: auto;
+}
+
+#button li a:hover {
+border-left: 10px solid #1c64d1;
+border-right: 10px solid #5ba3e0;
+background-color:#FFFFFF;
+color:#000000;
+}
