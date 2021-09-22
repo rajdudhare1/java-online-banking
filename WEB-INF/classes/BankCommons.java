@@ -8,8 +8,8 @@ public class BankCommons {
 	public static Connection prepareConn() {
 		Connection c=null;
 		try {
-	    	Class.forName("sun.jdbc.odbc.JdbcOdbcDriver");
-	    	c = DriverManager.getConnection("jdbc:ucanaccess://C://Users//e082961//Downloads//apache-tomcat-7.0.106-windows-x64//apache-tomcat-7.0.106//webapps//ob//db","","");
+	    	Class.forName("com.mysql.jdbc.Driver");
+	    	c = DriverManager.getConnection("jdbc:mysql://192.168.0.175:3306/bank","root","test");
 		}
 		catch (Exception ex) {
 			System.out.println (ex);
