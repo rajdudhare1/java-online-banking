@@ -9,7 +9,7 @@ public class BankCommons {
 		Connection c=null;
 		try {
 	    	Class.forName("com.mysql.jdbc.Driver");
-	    	c = DriverManager.getConnection("jdbc:mysql://192.168.0.175:3306/bank","root","test");
+	    	c = DriverManager.getConnection("jdbc:mysql://db:3306/bank","root","test");
 		}
 		catch (Exception ex) {
 			System.out.println (ex);
