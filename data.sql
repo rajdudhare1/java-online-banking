@@ -36,7 +36,7 @@ CREATE TABLE `acc_details` (
 
 LOCK TABLES `acc_details` WRITE;
 /*!40000 ALTER TABLE `acc_details` DISABLE KEYS */;
-INSERT INTO `acc_details` VALUES (7058129,'raj','STUDENT','Student Account for Tousif Khan'),(3029150,'anamika','CURRENT','Current Account');
+INSERT INTO `acc_details` VALUES (7058129,'raj','STUDENT','Student Account'),(3029150,'anamika','CURRENT','Current Account');
 /*!40000 ALTER TABLE `acc_details` ENABLE KEYS */;
 UNLOCK TABLES;
 
