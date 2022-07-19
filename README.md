@@ -12,4 +12,4 @@ This project is targeted to depict how online banking works.
 > install docker-compose
 
 
-`sh package.sh`
+`sh release.sh`
